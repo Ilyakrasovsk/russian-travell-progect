@@ -1,4 +1,7 @@
 .cover__background {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around; */
   width: 100%;
   height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
@@ -7,6 +10,10 @@
   background-repeat: no-repeat;
   opacity: 0.8;
   transition: opacity 0.5s linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 @media screen and (max-width: 1024px) {
   .cover__background {
