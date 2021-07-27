@@ -3,14 +3,9 @@
   max-width: 690px;
   padding-left: 148px;
 }
-@media screen and (max-width: 1280px) {
-  .intro {
-    padding-left: 100px;
-  }
-}
 @media screen and (max-width: 1024px) {
   .intro {
-    padding-left: 0;
+    padding-left: 48px;
   }
 }
 @media screen and (max-width:768px) {
